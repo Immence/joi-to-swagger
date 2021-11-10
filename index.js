@@ -307,6 +307,15 @@ const parseAsType = {
 
     return swagger;
   },
+  objectId: (schema) => {
+    const swagger = {
+      type: 'objectId',
+      format: '24 character hexadecimal string',
+      example: '507f191e810c19729de860ea'
+    };
+
+    return swagger;
+  },
 };
 
 function parse(schema, existingComponents, isSchemaOverride) {
