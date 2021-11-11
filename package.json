@@ -1,7 +1,7 @@
 {
-  "name": "joi-to-swagger",
-  "version": "6.0.1",
-  "description": "Conversion library for transforming joi schema objects into swagger / OpenApi OAS 3.0 schema definitions.",
+  "name": "joi-to-swagger-plaato",
+  "version": "1.0.0",
+  "description": "Fork of Joi-to-swagger allowing objectIds",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -26,7 +26,7 @@
     "type": "git",
     "url": "https://github.com/Twipped/joi-to-swagger.git"
   },
-  "author": "Jocelyn Badgley <joc@twipped.com>",
+  "author": "Simon Riley <simon@plaato.io>",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.6.0",
